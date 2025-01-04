@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Store</title>
+    <link rel="stylesheet" href="style2.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="produse.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Logo" />
+      <ul class="menu">
+        <li><a href="index.html">Acasă</a></li>
+        <li class="dropdown">
+          <a href="produse.php">Produse</a>
+        </li>
+        <li><a href="about.html">Despre</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <form action="search.php" method="GET" class="search-bar">
+            <input type=" text" name="query" placeholder="Căutare...">
+            <button type="submit">Caută</button>
+        </form>
+      <ul class="menu">
+        <li class="dropdown">
+          <a class="icons" id="user" href="index.php">
+            <img src="images/user.png" alt="user" /><span>Cont</span>
+          </a>
+          <ul class="dropdown-content">
+            <li>
+              <a href="login.php">Conectează-te</a>
+            </li>
+            <li>
+              <a href="signup.php">Înregistrează-te</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="icons" id="bag" href="cos.php">
+            <img src="images/shopping-bag.png" alt="shop-bag" /><span>Coş</span>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <h1>Despre noi</h1>
+      <p>
+        Bine ați venit la magazinul nostru online, destinația ta online pentru
+        produse de calitate! Misiunea noastră este să oferim clienților noștri o
+        experiență de cumpărături de neegalat, combinând o selecție variată de
+        produse cu servicii de customer support de top.</br> Ne mândrim cu faptul că
+        selectăm cu atenție fiecare produs, asigurându-ne că îndeplinește cele
+        mai înalte standarde de calitate. Indiferent dacă căutați cele mai
+        recente tendințe în modă, gadgeturi inovatoare sau produse esențiale
+        pentru casă, la magazinul nostru veți găsi tot ce aveți nevoie.</br> Echipa
+        noastră dedicată este aici pentru a vă ajuta să faceți alegeri informate
+        și să răspundem la orice întrebare ați avea. Suntem pasionați de ceea ce
+        facem și ne dorim ca fiecare client să fie pe deplin mulțumit cu
+        achizițiile făcute.</br> Apreciem încrederea pe care o aveți în noi și ne
+        angajăm să vă oferim cele mai bune produse și servicii. Mulțumim că ați
+        ales magazinul nostru!
+      </p>
+    </main>
+    <footer>
+      <p>Urmăreşte-ne pe</p>
+      <ul class="menu2">
+        <li>
+          <a class="icons"><img src="images/facebook.png" alt="user" /></a>
+        </li>
+        <li>
+          <a class="icons"><img src="images/instagram.png" alt="shop-bag" /></a>
+        </li>
+        <li>
+          <a class="icons"><img src="images/tiktok.png" alt="shop-bag" /></a>
+        </li>
+        <li>
+          <a class="icons"><img src="images/youtube.png" alt="shop-bag" /></a>
+        </li>
+        <li>
+          <a class="icons"><img src="images/pinterest.png" alt="shop-bag" /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

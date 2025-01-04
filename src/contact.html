@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Store</title>
+    <link rel="stylesheet" href="style2.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="produse.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Logo" />
+      <ul class="menu">
+        <li><a href="index.html">Acasă</a></li>
+        <li class="dropdown">
+          <a href="produse.php">Produse</a>
+        </li>
+        <li><a href="about.html">Despre</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <form action="search.php" method="GET" class="search-bar">
+        <input type=" text" name="query" placeholder="Căutare..." />
+        <button type="submit">Caută</button>
+      </form>
+      <ul class="menu">
+        <li class="dropdown">
+          <a class="icons" id="user" href="index.php">
+            <img src="images/user.png" alt="user" /><span>Cont</span>
+          </a>
+          <ul class="dropdown-content">
+            <li>
+              <a href="login.php">Conectează-te</a>
+            </li>
+            <li>
+              <a href="signup.php">Înregistrează-te</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="icons" id="bag" href="cos.php">
+            <img src="images/shopping-bag.png" alt="shop-bag" /><span>Coş</span>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <h1>Date de contact</h1>
+      <h3>Sediul principal</h3>
+      <ul>
+        <li>Magazinul fabricii</li>
+        <li>Magazin online</li>
+        <li>Fabrica</li>
+      </ul>
+      <h3>Adresa:</h3>
+      <p>Str. Unirii nr.28, Sibiu</p>
+      <p>Județul Sibiu, România</p>
+      <h4>Cod poștal:</h4>
+      <p>123455</p>
+      <h4>Telefon:</h4>
+      <p>+40 330 882 862</p>
+      <h4>Fax:</h4>
+      <p>+40 240 412 491</p>
+      <h4>Email:</h4>
+      <p>comenzi@store.ro</p>
+      <p>contact@store.ro</p>
+      </br>
+      <a href="display_entries.php">Pagină cu conținut dinamic</a>
+      </main>
+    </main>
+    <footer>
+      <p>Urmăreşte-ne pe</p>
+      <ul class="menu2">
+        <li>
+          <a class="icons"><img src="images/facebook.png" alt="user" /></a>
+        </li>
+        <li>
+          <a class="icons"><img src="images/instagram.png" alt="shop-bag" /></a>
+        </li>
+        <li>
+          <a class="icons"><img src="images/tiktok.png" alt="shop-bag" /></a>
+        </li>
+        <li>
+          <a class="icons"><img src="images/youtube.png" alt="shop-bag" /></a>
+        </li>
+        <li>
+          <a class="icons"><img src="images/pinterest.png" alt="shop-bag" /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
