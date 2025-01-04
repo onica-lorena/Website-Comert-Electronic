@@ -1,0 +1,39 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#container {
+  position: relative;
+}
+
+#movableDiv {
+  width: 400px;
+  height: 400px;
+  background-color: #ff0000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+#buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  text-align: left;
+}
