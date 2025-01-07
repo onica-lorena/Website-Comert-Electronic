@@ -11,7 +11,7 @@ $user_data = check_login($con);
 
 <head>
     <title>Cont</title>
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="styles/style2.css" />
 
 </head>
 
