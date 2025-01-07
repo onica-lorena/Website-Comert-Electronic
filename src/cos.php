@@ -24,8 +24,8 @@ $total_sum = 0;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coșul meu</title>
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="style4.css" />
+    <link rel="stylesheet" href="styles/style2.css">
+    <link rel="stylesheet" href="styles/style4.css" />
     <script src="produse.js"></script>
     <script>
         function updateCart(product_id) {
