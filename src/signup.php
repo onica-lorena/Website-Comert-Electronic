@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 <head>
     <title>Înregistrare</title>
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="styles/style2.css" />
 </head>
 
 <body>
