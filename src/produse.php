@@ -16,7 +16,7 @@ $result = mysqli_query($con, $query);
     <title>Produse pentru Femei</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="produse.js"></script>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="styles/style2.css">
 </head>
 
 <body>
