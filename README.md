@@ -1,4 +1,4 @@
-Platformă de Comerț Electronic
+# Platformă de Comerț Electronic
 
 Acest proiect reprezintă o aplicație web pentru un magazin online, care oferă utilizatorilor funcționalități precum gestionarea produselor, un coș de cumpărături dinamic și posibilitatea de autentificare și înregistrare.
 
