@@ -1,4 +1,4 @@
-# Magazin Online - Platformă de Comerț Electronic
+Platformă de Comerț Electronic
 
 Acest proiect reprezintă o aplicație web pentru un magazin online, care oferă utilizatorilor funcționalități precum gestionarea produselor, un coș de cumpărături dinamic și posibilitatea de autentificare și înregistrare.
 
@@ -65,7 +65,7 @@ Pentru a rula această aplicație, ai nevoie de:
 1. Deschide terminalul sau Git Bash.
 2. Rulează următoarea comandă pentru a clona proiectul:
    ```bash
-   git clone https://github.com/username/proiect.git
+   git clone https://github.com/onica-lorena/Website-Comert-Electronic.git
 ## 3. Configurarea serverului local
 1. Copiază toate fișierele proiectului în directorul htdocs al XAMPP:
    ```plaintext
